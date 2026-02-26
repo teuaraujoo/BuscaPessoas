@@ -1,5 +1,8 @@
 # Sistema de Busca de Pessoas
 
+<img width="1707" height="671" alt="image" src="https://github.com/user-attachments/assets/93555a85-75a4-4b2e-be06-a4bfde1a348e" />
+
+
 ## Sobre o Projeto
 
 Aplicação web desenvolvida para praticar consumo e manipulação de dados com JavaScript. O sistema permite buscar pessoas em um banco de dados JSON local contendo mais de 900 linhas de informações fictícias, exibindo resultados filtrados conforme a busca do usuário.
@@ -176,3 +179,4 @@ Projeto desenvolvido para fins educacionais e de estudo.
 ---
 
 Desenvolvido como parte da jornada de aprendizado em JavaScript.
+
