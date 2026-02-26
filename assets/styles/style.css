@@ -19,6 +19,13 @@ body {
   background-image: linear-gradient(to right top, #0c0c0c, #141414, #1a1a1a, #212121, #272727);
 }
 
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-color: none;
+}
 
 .form {
   margin-bottom: 50px;
