@@ -29,6 +29,8 @@ Este projeto faz parte da minha jornada de estudos em JavaScript, com foco em ma
 - Botão para executar a pesquisa
 - Busca por nome em banco de dados local (pessoas.json)
 - Resultados filtrados dinamicamente
+- Botão para limpar busca
+- Modo dark/light
 
 **Dados Exibidos**
 - Nome completo
@@ -179,4 +181,5 @@ Projeto desenvolvido para fins educacionais e de estudo.
 ---
 
 Desenvolvido como parte da jornada de aprendizado em JavaScript.
+
 
