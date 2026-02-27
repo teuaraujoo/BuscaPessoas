@@ -1,11 +1,23 @@
 export function verificacao(valor) {
     if (valor === '') {
-        alert('Digite algo');
+        Swal.fire({
+            title: 'Busca vazia',
+            text: 'Digite um nome',
+            icon: 'error',
+            theme: 'dark',
+            confirmButtonColor: '#28c941'
+        })
         return false;
     }
-    
+
     if (valor.length < 3) {
-        alert('Digite pelo menos 3 caracteres');
+        Swal.fire({
+            title: 'Número de caracteres inválido',
+            text: 'Digite pelo menos 3 caracteres',
+            icon: 'error',
+            theme: 'dark', 
+            confirmButtonColor: '#28c941', 
+        });
         return false;
     }
     return true;

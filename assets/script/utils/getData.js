@@ -19,7 +19,13 @@ export function getData(nome) {
         div.innerHTML = '';
 
         if (resultado.length === 0) {
-            alert('Nome nao encontrado!');
+            Swal.fire({ 
+                title: 'Nome não encontrado',
+                text: 'Digite um nome válido',
+                icon: 'error',
+                theme: 'dark',
+                confirmButtonColor: '#28c941',
+            });
             return;
         }
 

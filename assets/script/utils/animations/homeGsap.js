@@ -10,7 +10,7 @@ export function homeGsap() {
         } 
     });
 
-    tl.from('form', {
+    tl.from('.container', {
         y: -30,
         opacity: 0,
         duration: 1,
