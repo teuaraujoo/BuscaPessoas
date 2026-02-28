@@ -4,10 +4,17 @@ import { homeGsap } from './utils/animations/homeGsap.js';
 import { clearBtn } from './utils/clearBtn.js';
 import { changeBtn } from './utils/changeBtn.js';
 
-document.addEventListener('DOMContentLoaded', () => {
+let peopleData = [];
+document.addEventListener('DOMContentLoaded',  async () => {
   homeGsap();
   clearBtn();
   changeBtn();
+  try {
+    const response = await fetch('./pessoas.json');
+    peopleData = await response.json();
+  } catch(e) {
+    console.log('ERROR: ' + e.message);
+  }
 });
 
 particlesJS("particles-js", {
@@ -64,7 +71,7 @@ function init() {
       div.innerHTML = '';
       return;
     };
-    getData(valor);
+    getData(valor, peopleData);
     nome.value = '';
   });
 };
